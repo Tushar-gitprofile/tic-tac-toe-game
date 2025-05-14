@@ -1,0 +1,129 @@
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+.container{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height:60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+.pannel{
+    background-color: #1a1a1a;
+    color: #fff;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0;
+}
+.msg-container{
+   height: 100vmin;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:4rem;
+
+}
+#New-btn{
+     padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+#msg{
+    color: #ffffc7;
+    font-size: 8vmin;
+}
+.hide{
+    display: none;
+}
+img{
+    height: 35px;
+    width: 35px;
+}
+h1{
+    padding: 10px;
+}
+.mode-selector {
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+#mode {
+    margin-left: 10px;
+    padding: 4px 8px;
+    font-size: 16px;
+}
+.mode-selector{
+    height: 50px;
+}
+
+ .mode-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#select {
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#mode {
+    color: white;
+    background-color: #1a1a1a;
+    border: 1px solid #444;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#mode:hover {
+    background-color: #333;
+    border-color: #666;
+}
